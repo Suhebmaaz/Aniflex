@@ -1,0 +1,9 @@
+.slidshow{
+  width: 100%;
+  height: 690px;
+  margin: 0px;
+}
+.slidshow img{
+  width: 100%;
+  height: 100%;
+}

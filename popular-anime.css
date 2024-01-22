@@ -1,0 +1,85 @@
+.popular-anime{
+  font-family: Raleway;
+  color: rgb(233, 233, 233);
+  margin: 0px;
+  background-color: black;
+}
+.popular-anime-heading{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 16px 28px;
+  margin: 0px;
+  margin-left: 0px
+}
+.list{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 190px;
+  height: 250px;
+}
+.list-pic{
+  height: 200px;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+.list-text{
+  margin-top: 0px;
+  border-bottom-width: 2px;
+  border-bottom-style:solid;
+  border-bottom-color:gray;
+}
+.list-title{
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.list-discription{
+  font-size: 14px;
+  margin-top: 18px;
+  line-height: 19.6px;
+  overflow-wrap: break-word;
+}
+.play{
+  background-color: rgb(225, 72, 47);
+  color: rgb(233, 233, 233);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  border-width: 2px;
+  border-color:rgb(225, 72, 47) ;
+  border-style: solid;
+  padding: 7px 0px; 
+  font-family: Poppins;
+  width: 150px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  transition: 0.15s;
+}
+.play:hover{
+  background-color: transparent;
+  color: rgb(225, 72, 47);
+  border-width: 2px;
+  border-color:rgb(225, 72, 47) ;
+  border-style: solid;
+}
+.add{
+  border-width: 2px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(225, 72, 47);
+  color: rgb(225, 72, 47);
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 7px 0px; 
+  font-family: Poppins;
+  width: 145px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  transition: 0.15s;
+}
+.add:hover{
+  background-color:rgb(225, 72, 47) ;
+  color: rgb(233, 233, 233) ;
+}

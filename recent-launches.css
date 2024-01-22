@@ -1,0 +1,37 @@
+.recent-launches,.explore-anime{
+  background-color: black;
+  font-family: Raleway;
+  color: rgb(233, 233, 233);
+  margin: 0px;
+}
+.recent-launches-heading{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 16px 28px;
+  margin: 0px;
+  margin-left: -6px;
+
+}
+.recent-launches-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  column-gap: 25px;
+  
+}
+.recent-launches-position{
+  position: relative;
+}
+.recent-launches-grid img{
+  width: 100%;
+  height: 300px;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+.recent-launches-grid p{
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  bottom: -12px;
+  padding: 15px 80px ;
+}

@@ -1,0 +1,15 @@
+body{
+  margin: 0px;
+  
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(38, 38, 38);
+  color: rgb(233, 233, 233);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+}
